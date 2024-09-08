@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#x{
+    background-color: antiquewhite;
+}
+#y{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    float: left;
+}
+#z{
+    float:right;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div[class~="c1"]{
+        background-color: rebeccapurple;
+        border: solid green;
+        height: 200px;
+        width: 200px;
+    }
+    input[type="text"]{
+
+        background-color: blue;
+        
+
+    }
+    div[class^="header"]{
+        background-color: rgb(153, 99, 51);
+        border: solid rgb(190, 25, 45);
+        height: 190px;
+        width: 190px;
+       
+    }
+    div[class*="or"]{
+        background-color: rgb(106, 188, 218);
+        border: solid rgb(44, 33, 137);
+        height: 170px;
+        width: 170px; 
+    }
+    div[class$="ber"]{
+        background-color: rgb(159, 24, 74);
+        border: solid rgb(25, 190, 25);
+        height: 150px;
+        width: 150px;
+    }
+</style>
+<body>
+    <div class="c1 c2">1</div>
+    <div class="c1">2</div>
+    <div class="c1">3</div>
+    <div class="c2">4</div>
+    <div class="c2 c1">5</div>
+    <div class="c2">6</div>
+    <div class="c2">7</div>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="email">
+    <div class="c3">1</div>
+    <div class="header">2</div>
+    <div class="headerlogo">3</div>
+    <div class="headerback">4</div>
+    <div class="cor">5</div>
+    <div class="cor">6</div>
+    <div class="osber">7</div>
+</body>
+</html>
